@@ -1,43 +1,42 @@
-# harsh-project
-# 🔍 Harsh Fast Port Scanner (Multithreaded + Banner Grabbing)
+# 🔍 Harsh Fast Port Scanner  
+### *(Multithreaded + Banner Grabbing)*
 
-A fast and lightweight Python-based **Port Scanner** that uses **multithreading** for speed and includes **banner grabbing** to identify open services running on a target machine.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Made with ❤️ by Harsh](https://img.shields.io/badge/Made%20By-Harsh%20Kantvardhan-orange)
 
-This tool is created for **learning cybersecurity**, **socket programming**, and **ethical penetration testing**.
+---
+
+## 📌 Overview
+
+**Harsh Fast Port Scanner** is a **lightweight, fast, multithreaded network scanner** built using Python.  
+It performs:
+
+- 🔥 **High-speed multithreaded port scanning**  
+- 🏷️ **Banner grabbing** (detect service info like SSH/FTP/HTTP)  
+- 🌐 **Domain + IP support**  
+- 📁 **CSV export**
+
+Best for **Cybersecurity Students, Socket Programming Practice, and Ethical Pentesting.**
 
 ---
 
 ## 🚀 Features
 
-### ✅ Fast Multithreaded Port Scanning  
-Uses multiple threads to scan ports quickly and efficiently.
-
-### ✅ Banner Grabbing  
-Identifies services running on open ports (e.g., SSH, HTTP, FTP).
-
-### ✅ IP / Domain Support  
-Enter **domain** or **IP address**, both are supported.
-
-### ✅ CSV + TXT Output Files  
-Automatically saves results in:  
-- `scan_results.txt`  
-- `open_ports.csv`
-
-### ✅ Clean & Colorful Terminal Output  
-Easy-to-read responses using ANSI color formatting.
+✔ **Ultra-fast Multithreaded Scanning**  
+✔ **Service Detection (Banner Grabbing)**  
+✔ **Scan IP or Domain Names**  
+✔ **CSV Output (open_ports.csv)**  
+✔ **Exception Handling + Color Output**  
+✔ **Simple and Beginner Friendly**
 
 ---
 
-## 🛠️ Tech Stack
-- **Python 3**
-- `socket`
-- `threading`
-- `csv`
+## 🛠️ Installation
 
----
-
-## 📦 Installation
-
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/harshkantvardhan-cloud/harsh-project.git
+cd harsh-project
